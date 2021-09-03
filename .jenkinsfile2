@@ -12,7 +12,7 @@ bat "mvn clean"
 }
 
 }
-stage('deploy')
+stage('deploy to QA')
 {
 steps{
 echo 'deploying the code'
